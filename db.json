@@ -96,7 +96,7 @@
     }
   ],
 
-  "featuredCategory": [
+  "featured-category": [
     {
       "id": 1,
       "name": "Processor",
@@ -189,7 +189,8 @@
         "21 days of battery life"
       ],
       "status": true,
-      "rating": 5
+      "rating": 10
     }
   ]
 }
+
