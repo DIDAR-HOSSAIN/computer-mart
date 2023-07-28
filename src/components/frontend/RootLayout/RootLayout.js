@@ -10,9 +10,11 @@ import Navbar from "../Navbar/navbar";
 
 const RootLayout = ({children}) => {
     return (
-        <div>
+        <div className="w-8/12 mx-auto">
             <Navbar />
-            {children}
+            <div className="min-h-screen">
+                {children}
+            </div>
             <Footer />            
         </div>
     );
