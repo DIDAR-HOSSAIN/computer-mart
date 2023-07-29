@@ -1,0 +1,33 @@
+{
+    "menus": [
+        {
+            "id": "1",
+            "title": "Home",
+            "path": "/",
+            "dropdown":[]
+        },
+        {
+            "id": "2",
+            "title": "Who We Are",
+            "path": "/products/processor",
+            "dropdown":[]
+        },
+       
+        {
+            "id": "4",
+            "title": "Consulting",
+            "path": "/",
+            "dropdown": []
+        },
+        {
+            "id": "5",
+            "title": "About",
+            "path": "/about"
+        },
+        {
+            "id": "6",
+            "title": "Contact",
+            "path": "/contact"
+        }
+    ]
+}

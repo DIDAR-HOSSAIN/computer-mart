@@ -1,196 +1,988 @@
 {
-  "watches": [
-    {
-      "id": 1,
-      "name": "Haylou GST",
-      "image": "https://live.staticflickr.com/65535/52953899202_478089ea5f_h.jpg",
-      "price": 99.99,
-      "features": [
-        "1.69'' HD display",
-        "Support 12 workout modes",
-        "Support all-day heart rate and blood oxygen monitoring",
-        "Support intelligent sleep monitoring",
-        "IP68 dustproof and waterproof",
-        "20 days of battery life"
-      ],
-      "status": true,
-      "rating": 5
-    },
-    {
-      "id": 2,
-      "name": "Haylou GS",
-      "image": "https://live.staticflickr.com/65535/52954632614_2db2bed3a7_h.jpg",
-      "price": 32.38,
-      "features": [
-        "38g compact body, more comfortable to wear",
-        "Support 12 workout modes",
-        "Support SpO₂ tracking and heart rate monitoring",
-        "Support smart sleep monitoring",
-        "IP68 dustproof and waterproof",
-        "20-day battery life"
-      ],
-      "status": false,
-      "rating": 3
-    },
-    {
-      "id": 3,
-      "name": "Haylou Solar Plus RT3",
-      "image": "https://live.staticflickr.com/65535/52953899127_38e776f3f7_h.jpg",
-      "price": 48.79,
-      "features": [
-        "Bluetooth 5.2, worry-free communication made easy",
-        "Precise and clear experience with 1.43\" Amoled display",
-        "5d looking level-up, exquisite metal bezel",
-        "Always-on display, conf_ident time control",
-        "Versatile watch faces, support customize watch face"
-      ],
-      "status": true,
-      "rating": 5
-    },
-    {
-      "id": 4,
-      "name": "Haylou RT2",
-      "image": "https://live.staticflickr.com/65535/52954494936_efd69e2df9_h.jpg",
-      "price": 38.99,
-      "features": [
-        "360*360 high resolution display",
-        "Support 12 workout modes",
-        "Support all-day heart rate and blood oxygen monitoring",
-        "Support intelligent sleep monitoring",
-        "20 days of battery life"
-      ],
-      "status": true,
-      "rating": 2
-    },
-    {
-      "id": 5,
-      "name": "Haylou RS4 Plus",
-      "image": "https://live.staticflickr.com/65535/52953899137_072c5c4ffc_h.jpg",
-      "price": 54.84,
-      "features": [
-        "1.78'' AMOLED HD display",
-        "60HZ refresh rate, smooth and delicate picture quality",
-        "Support 105 workout modes",
-        "Support multi-UI main menu mode",
-        "Support all-day heart rate and blood oxygen monitoring",
-        "Support Alipay offline payment"
-      ],
-      "status": false,
-      "rating": 4
-    },
-    {
-      "id": 6,
-      "name": "Haylou RS3",
-      "image": "https://live.staticflickr.com/65535/52953899132_fead48e579_h.jpg",
-      "price": 63.07,
-      "features": [
-        "1.2'' AMOLED HD display",
-        "Support 14 workout modes",
-        "Support all-day heart rate and blood oxygen monitoring",
-        "SONY GPS, accurate positioning of movement trajectory",
-        "5ATM waterproof",
-        "21 days of battery life"
-      ],
-      "status": true,
-      "rating": 5
-    }
-  ],
+    "processors": [
+      {
+        "id": 1,
+        "name": "Intel Core i9-10900K",
+        "category": "Processor",
+        "status": true,
+        "price": "$500",
+        "description": "Powerful and high-end desktop processor",
+        "keyFeatures": {
+          "Brand": "Intel",
+          "Model": "Core i9-10900K",
+          "Specification": "10 cores, 20 threads, 3.7GHz base clock, 5.3GHz max turbo boost"
+        },
+        "image": "/featuredCategoryImages/product-images/processor-1.png",
+        "individualRating": 4.8,
+        "averageRating": 4.7,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "This processor is a beast! Highly recommended for gaming and video editing."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Great performance, but it runs a bit hot under heavy load."
+          }
+        ]
+      },
+      
+      {
+        "id": 2,
+        "name": "AMD Ryzen 9 5900X",
+        "category": "Processor",
+        "status": true,
+        "price": "$550",
+        "description": "Excellent computational performance",
+        "keyFeatures": {
+          "Brand": "AMD",
+          "Model": "Ryzen 9 5900X",
+          "Specification": "12 cores, 24 threads, 3.7GHz base clock, 4.8GHz max boost clock"
+        },
+        "image": "/featuredCategoryImages/product-images/processor-2.png",
+        "individualRating": 4.9,
+        "averageRating": 4.8,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Incredible performance. It handles multitasking like a champ."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Best CPU for content creators. Rendering times are significantly reduced."
+          }
+        ]
+      },
 
-  "featured-category": [
-    {
-      "id": 1,
-      "name": "Processor",
-      "image": "/featuredCategoryImages/processor.png",
-      "price": 99.99,
-      "features": [
-        "1.69'' HD display",
-        "Support 12 workout modes",
-        "Support all-day heart rate and blood oxygen monitoring",
-        "Support intelligent sleep monitoring",
-        "IP68 dustproof and waterproof",
-        "20 days of battery life"
-      ],
-      "status": true,
-      "rating": 5
-    },
-    {
-      "id": 2,
-      "name": "Motherboard",
-      "image": "/featuredCategoryImages/motherboard.png",
-      "price": 32.38,
-      "features": [
-        "38g compact body, more comfortable to wear",
-        "Support 12 workout modes",
-        "Support SpO₂ tracking and heart rate monitoring",
-        "Support smart sleep monitoring",
-        "IP68 dustproof and waterproof",
-        "20-day battery life"
-      ],
-      "status": false,
-      "rating": 3
-    },
-    {
-      "id": 3,
-      "name": "Ram",
-      "image": "/featuredCategoryImages/ram.png",
-      "price": 48.79,
-      "features": [
-        "Bluetooth 5.2, worry-free communication made easy",
-        "Precise and clear experience with 1.43\" Amoled display",
-        "5d looking level-up, exquisite metal bezel",
-        "Always-on display, conf_ident time control",
-        "Versatile watch faces, support customize watch face"
-      ],
-      "status": true,
-      "rating": 5
-    },
-    {
-      "id": 4,
-      "name": "Power Supply Unit",
-      "image": "/featuredCategoryImages/Power-Supply-Unit.png",
-      "price": 38.99,
-      "features": [
-        "360*360 high resolution display",
-        "Support 12 workout modes",
-        "Support all-day heart rate and blood oxygen monitoring",
-        "Support intelligent sleep monitoring",
-        "20 days of battery life"
-      ],
-      "status": true,
-      "rating": 2
-    },
-    {
-      "id": 5,
-      "name": "Storage",
-      "image": "/featuredCategoryImages/storage.png",
-      "price": 54.84,
-      "features": [
-        "1.78'' AMOLED HD display",
-        "60HZ refresh rate, smooth and delicate picture quality",
-        "Support 105 workout modes",
-        "Support multi-UI main menu mode",
-        "Support all-day heart rate and blood oxygen monitoring",
-        "Support Alipay offline payment"
-      ],
-      "status": false,
-      "rating": 4
-    },
-    {
-      "id": 6,
-      "name": "Monitor",
-      "image": "/featuredCategoryImages/monitor.png",
-      "price": 63.07,
-      "features": [
-        "1.2'' AMOLED HD display",
-        "Support 14 workout modes",
-        "Support all-day heart rate and blood oxygen monitoring",
-        "SONY GPS, accurate positioning of movement trajectory",
-        "5ATM waterproof",
-        "21 days of battery life"
-      ],
-      "status": true,
-      "rating": 10
-    }
-  ]
-}
+      {
+        "id": 3,
+        "name": "Intel Core i9-10900K",
+        "category": "Processor",
+        "status": true,
+        "price": "$500",
+        "description": "Powerful and high-end desktop processor",
+        "keyFeatures": {
+          "Brand": "Intel",
+          "Model": "Core i9-10900K",
+          "Specification": "10 cores, 20 threads, 3.7GHz base clock, 5.3GHz max turbo boost"
+        },
+        "image": "/featuredCategoryImages/product-images/processor-3.png",
+        "individualRating": 4.8,
+        "averageRating": 4.7,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "This processor is a beast! Highly recommended for gaming and video editing."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Great performance, but it runs a bit hot under heavy load."
+          }
+        ]
+      },
 
+      {
+        "id": 4,
+        "name": "AMD Ryzen 9 5900X",
+        "category": "Processor",
+        "status": true,
+        "price": "$550",
+        "description": "Excellent computational performance",
+        "keyFeatures": {
+          "Brand": "AMD",
+          "Model": "Ryzen 9 5900X",
+          "Specification": "12 cores, 24 threads, 3.7GHz base clock, 4.8GHz max boost clock"
+        },
+        "image": "/featuredCategoryImages/product-images/processor-4.png",
+        "individualRating": 4.9,
+        "averageRating": 4.8,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Incredible performance. It handles multitasking like a champ."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Best CPU for content creators. Rendering times are significantly reduced."
+          }
+        ]
+      },
+
+      {
+        "id": 5,
+        "name": "Intel Core i9-10900K",
+        "category": "Processor",
+        "status": true,
+        "price": "$500",
+        "description": "Powerful and high-end desktop processor",
+        "keyFeatures": {
+          "Brand": "Intel",
+          "Model": "Core i9-10900K",
+          "Specification": "10 cores, 20 threads, 3.7GHz base clock, 5.3GHz max turbo boost"
+        },
+        "image": "/featuredCategoryImages/product-images/processor-5.png",
+        "individualRating": 4.8,
+        "averageRating": 4.7,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "This processor is a beast! Highly recommended for gaming and video editing."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Great performance, but it runs a bit hot under heavy load."
+          }
+        ]
+      },
+
+      {
+        "id": 6,
+        "name": "AMD Ryzen 9 5900X",
+        "category": "Processor",
+        "status": true,
+        "price": "$550",
+        "description": "Excellent computational performance",
+        "keyFeatures": {
+          "Brand": "AMD",
+          "Model": "Ryzen 9 5900X",
+          "Specification": "12 cores, 24 threads, 3.7GHz base clock, 4.8GHz max boost clock"
+        },
+        "image": "/featuredCategoryImages/product-images/processor-6.png",
+        "individualRating": 4.9,
+        "averageRating": 4.8,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Incredible performance. It handles multitasking like a champ."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Best CPU for content creators. Rendering times are significantly reduced."
+          }
+        ]
+      }
+
+    ],
+  
+    "motherboards": [
+      {
+        "id": 1,
+        "name": "ASUS ROG Strix Z590-E",
+        "category": "Motherboard",
+        "status": true,
+        "price": "$350",
+        "description": "High-end motherboard with extensive features",
+        "keyFeatures": {
+          "Brand": "ASUS",
+          "Model": "ROG Strix Z590-E",
+          "Specification": "ATX form factor, Intel Z590 chipset, PCIe 4.0 support, Wi-Fi 6E"
+        },
+        "image": "/featuredCategoryImages/product-images/motherboard-1.png",
+        "individualRating": 4.8,
+        "averageRating": 4.7,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Premium motherboard with amazing RGB lighting and excellent overclocking options."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Great board for gaming and content creation. No complaints so far."
+          }
+        ]
+      },
+
+      {
+        "id": 2,
+        "name": "GIGABYTE X570 AORUS Master",
+        "category": "Motherboard",
+        "status": true,
+        "price": "$400",
+        "description": "Feature-rich motherboard for enthusiasts",
+        "keyFeatures": {
+          "Brand": "GIGABYTE",
+          "Model": "X570 AORUS Master",
+          "Specification": "ATX form factor, AMD X570 chipset, PCIe 4.0 support, 14+2 phases VRM"
+        },
+        "image": "/featuredCategoryImages/product-images/motherboard-2.png",
+        "individualRating": 4.9,
+        "averageRating": 4.8,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "This motherboard has everything I need for my high-performance build."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Great BIOS options and excellent build quality. Highly recommended."
+          }
+        ]
+      },
+
+      {
+        "id": 3,
+        "name": "ASUS ROG Strix Z590-E",
+        "category": "Motherboard",
+        "status": true,
+        "price": "$350",
+        "description": "High-end motherboard with extensive features",
+        "keyFeatures": {
+          "Brand": "ASUS",
+          "Model": "ROG Strix Z590-E",
+          "Specification": "ATX form factor, Intel Z590 chipset, PCIe 4.0 support, Wi-Fi 6E"
+        },
+        "image": "/featuredCategoryImages/product-images/motherboard-3.png",
+        "individualRating": 4.8,
+        "averageRating": 4.7,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Premium motherboard with amazing RGB lighting and excellent overclocking options."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Great board for gaming and content creation. No complaints so far."
+          }
+        ]
+      },
+
+      {
+        "id": 4,
+        "name": "GIGABYTE X570 AORUS Master",
+        "category": "Motherboard",
+        "status": true,
+        "price": "$400",
+        "description": "Feature-rich motherboard for enthusiasts",
+        "keyFeatures": {
+          "Brand": "GIGABYTE",
+          "Model": "X570 AORUS Master",
+          "Specification": "ATX form factor, AMD X570 chipset, PCIe 4.0 support, 14+2 phases VRM"
+        },
+        "image": "/featuredCategoryImages/product-images/motherboard-4.png",
+        "individualRating": 4.9,
+        "averageRating": 4.8,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "This motherboard has everything I need for my high-performance build."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Great BIOS options and excellent build quality. Highly recommended."
+          }
+        ]
+      },
+
+      {
+        "id": 5,
+        "name": "ASUS ROG Strix Z590-E",
+        "category": "Motherboard",
+        "status": true,
+        "price": "$350",
+        "description": "High-end motherboard with extensive features",
+        "keyFeatures": {
+          "Brand": "ASUS",
+          "Model": "ROG Strix Z590-E",
+          "Specification": "ATX form factor, Intel Z590 chipset, PCIe 4.0 support, Wi-Fi 6E"
+        },
+        "image": "/featuredCategoryImages/product-images/motherboard-5.png",
+        "individualRating": 4.8,
+        "averageRating": 4.7,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Premium motherboard with amazing RGB lighting and excellent overclocking options."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Great board for gaming and content creation. No complaints so far."
+          }
+        ]
+      },
+
+      {
+        "id": 6,
+        "name": "GIGABYTE X570 AORUS Master",
+        "category": "Motherboard",
+        "status": true,
+        "price": "$400",
+        "description": "Feature-rich motherboard for enthusiasts",
+        "keyFeatures": {
+          "Brand": "GIGABYTE",
+          "Model": "X570 AORUS Master",
+          "Specification": "ATX form factor, AMD X570 chipset, PCIe 4.0 support, 14+2 phases VRM"
+        },
+        "image": "/featuredCategoryImages/product-images/motherboard-6.png",
+        "individualRating": 4.9,
+        "averageRating": 4.8,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "This motherboard has everything I need for my high-performance build."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Great BIOS options and excellent build quality. Highly recommended."
+          }
+        ]
+      }
+    ],
+  
+    "ram": [
+      {
+        "id": 1,
+        "name": "Corsair Vengeance RGB Pro",
+        "category": "RAM",
+        "status": true,
+        "price": "$150",
+        "description": "High-performance RGB DDR4 memory for gaming enthusiasts",
+        "keyFeatures": {
+          "Brand": "Corsair",
+          "Model": "Vengeance RGB Pro",
+          "Specification": "16GB (2 x 8GB) DDR4 3200MHz, RGB lighting, XMP 2.0 support"
+        },
+        "image": "/featuredCategoryImages/product-images/ram-1.png",
+        "individualRating": 4.7,
+        "averageRating": 4.6,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Stylish and fast RAM. The RGB lighting looks amazing in my setup."
+          },
+          {
+            "rating": 4,
+            "comment": "Great memory performance, but a bit pricey for the RGB feature."
+          }
+        ]
+      },
+
+      {
+        "id": 2,
+        "name": "G.SKILL Trident Z Neo",
+        "category": "RAM",
+        "status": true,
+        "price": "$180",
+        "description": "High-speed DDR4 memory optimized for AMD Ryzen processors",
+        "keyFeatures": {
+          "Brand": "G.SKILL",
+          "Model": "Trident Z Neo",
+          "Specification": "32GB (2 x 16GB) DDR4 3600MHz, CL16, optimized for Ryzen"
+        },
+        "image": "/featuredCategoryImages/product-images/ram-2.png",
+        "individualRating": 4.9,
+        "averageRating": 4.8,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Fantastic RAM. Works flawlessly with my Ryzen CPU and boosts overall performance."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Top-notch build quality and excellent XMP profile support."
+          }
+        ]
+      },
+
+      {
+        "id": 3,
+        "name": "Corsair Vengeance RGB Pro",
+        "category": "RAM",
+        "status": true,
+        "price": "$150",
+        "description": "High-performance RGB DDR4 memory for gaming enthusiasts",
+        "keyFeatures": {
+          "Brand": "Corsair",
+          "Model": "Vengeance RGB Pro",
+          "Specification": "16GB (2 x 8GB) DDR4 3200MHz, RGB lighting, XMP 2.0 support"
+        },
+        "image": "/featuredCategoryImages/product-images/ram-3.png",
+        "individualRating": 4.7,
+        "averageRating": 4.6,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Stylish and fast RAM. The RGB lighting looks amazing in my setup."
+          },
+          {
+            "rating": 4,
+            "comment": "Great memory performance, but a bit pricey for the RGB feature."
+          }
+        ]
+      },
+
+      {
+        "id": 4,
+        "name": "G.SKILL Trident Z Neo",
+        "category": "RAM",
+        "status": true,
+        "price": "$180",
+        "description": "High-speed DDR4 memory optimized for AMD Ryzen processors",
+        "keyFeatures": {
+          "Brand": "G.SKILL",
+          "Model": "Trident Z Neo",
+          "Specification": "32GB (2 x 16GB) DDR4 3600MHz, CL16, optimized for Ryzen"
+        },
+        "image": "/featuredCategoryImages/product-images/ram-4.png",
+        "individualRating": 4.9,
+        "averageRating": 4.8,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Fantastic RAM. Works flawlessly with my Ryzen CPU and boosts overall performance."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Top-notch build quality and excellent XMP profile support."
+          }
+        ]
+      },
+
+      {
+        "id": 5,
+        "name": "Corsair Vengeance RGB Pro",
+        "category": "RAM",
+        "status": true,
+        "price": "$150",
+        "description": "High-performance RGB DDR4 memory for gaming enthusiasts",
+        "keyFeatures": {
+          "Brand": "Corsair",
+          "Model": "Vengeance RGB Pro",
+          "Specification": "16GB (2 x 8GB) DDR4 3200MHz, RGB lighting, XMP 2.0 support"
+        },
+        "image": "/featuredCategoryImages/product-images/ram-5.png",
+        "individualRating": 4.7,
+        "averageRating": 4.6,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Stylish and fast RAM. The RGB lighting looks amazing in my setup."
+          },
+          {
+            "rating": 4,
+            "comment": "Great memory performance, but a bit pricey for the RGB feature."
+          }
+        ]
+      },
+
+      {
+        "id": 6,
+        "name": "G.SKILL Trident Z Neo",
+        "category": "RAM",
+        "status": true,
+        "price": "$180",
+        "description": "High-speed DDR4 memory optimized for AMD Ryzen processors",
+        "keyFeatures": {
+          "Brand": "G.SKILL",
+          "Model": "Trident Z Neo",
+          "Specification": "32GB (2 x 16GB) DDR4 3600MHz, CL16, optimized for Ryzen"
+        },
+        "image": "/featuredCategoryImages/product-images/ram-6.png",
+        "individualRating": 4.9,
+        "averageRating": 4.8,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Fantastic RAM. Works flawlessly with my Ryzen CPU and boosts overall performance."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Top-notch build quality and excellent XMP profile support."
+          }
+        ]
+      }
+    ],
+  
+    "powerSupply": [
+      {
+        "id": 1,
+        "name": "Seasonic Focus GX-850",
+        "category": "Power Supply",
+        "status": true,
+        "price": "$130",
+        "description": "Efficient and reliable 850W power supply",
+        "keyFeatures": {
+          "Brand": "Seasonic",
+          "Model": "Focus GX-850",
+          "Specification": "850W, 80 Plus Gold certified, fully modular cables, silent fan"
+        },
+        "image": "/featuredCategoryImages/product-images/power-supply-1.png",
+        "individualRating": 4.7,
+        "averageRating": 4.6,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Great PSU with stable power delivery. The modular design keeps cable management tidy."
+          },
+          {
+            "rating": 4,
+            "comment": "Runs quietly and efficiently, but it could use more SATA connectors."
+          }
+        ]
+      },
+
+      {
+        "id": 2,
+        "name": "Corsair RM850x",
+        "category": "Power Supply",
+        "status": true,
+        "price": "$140",
+        "description": "High-quality 850W power supply with low noise levels",
+        "keyFeatures": {
+          "Brand": "Corsair",
+          "Model": "RM850x",
+          "Specification": "850W, 80 Plus Gold certified, fully modular cables, Zero RPM fan mode"
+        },
+        "image": "/featuredCategoryImages/product-images/power-supply-2.png",
+        "individualRating": 4.8,
+        "averageRating": 4.7,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Reliable and efficient PSU with virtually silent operation during light loads."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Top-notch performance and build quality, but a bit expensive."
+          }
+        ]
+      },
+
+      {
+        "id": 3,
+        "name": "Seasonic Focus GX-850",
+        "category": "Power Supply",
+        "status": true,
+        "price": "$130",
+        "description": "Efficient and reliable 850W power supply",
+        "keyFeatures": {
+          "Brand": "Seasonic",
+          "Model": "Focus GX-850",
+          "Specification": "850W, 80 Plus Gold certified, fully modular cables, silent fan"
+        },
+        "image": "/featuredCategoryImages/product-images/power-supply-3.png",
+        "individualRating": 4.7,
+        "averageRating": 4.6,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Great PSU with stable power delivery. The modular design keeps cable management tidy."
+          },
+          {
+            "rating": 4,
+            "comment": "Runs quietly and efficiently, but it could use more SATA connectors."
+          }
+        ]
+      },
+
+      {
+        "id": 4,
+        "name": "Corsair RM850x",
+        "category": "Power Supply",
+        "status": true,
+        "price": "$140",
+        "description": "High-quality 850W power supply with low noise levels",
+        "keyFeatures": {
+          "Brand": "Corsair",
+          "Model": "RM850x",
+          "Specification": "850W, 80 Plus Gold certified, fully modular cables, Zero RPM fan mode"
+        },
+        "image": "/featuredCategoryImages/product-images/power-supply-4.png",
+        "individualRating": 4.8,
+        "averageRating": 4.7,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Reliable and efficient PSU with virtually silent operation during light loads."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Top-notch performance and build quality, but a bit expensive."
+          }
+        ]
+      },
+
+      {
+        "id": 5,
+        "name": "Seasonic Focus GX-850",
+        "category": "Power Supply",
+        "status": true,
+        "price": "$130",
+        "description": "Efficient and reliable 850W power supply",
+        "keyFeatures": {
+          "Brand": "Seasonic",
+          "Model": "Focus GX-850",
+          "Specification": "850W, 80 Plus Gold certified, fully modular cables, silent fan"
+        },
+        "image": "/featuredCategoryImages/product-images/power-supply-5.png",
+        "individualRating": 4.7,
+        "averageRating": 4.6,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Great PSU with stable power delivery. The modular design keeps cable management tidy."
+          },
+          {
+            "rating": 4,
+            "comment": "Runs quietly and efficiently, but it could use more SATA connectors."
+          }
+        ]
+      },
+
+      {
+        "id": 6,
+        "name": "Corsair RM850x",
+        "category": "Power Supply",
+        "status": true,
+        "price": "$140",
+        "description": "High-quality 850W power supply with low noise levels",
+        "keyFeatures": {
+          "Brand": "Corsair",
+          "Model": "RM850x",
+          "Specification": "850W, 80 Plus Gold certified, fully modular cables, Zero RPM fan mode"
+        },
+        "image": "/featuredCategoryImages/product-images/power-supply-6.png",
+        "individualRating": 4.8,
+        "averageRating": 4.7,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Reliable and efficient PSU with virtually silent operation during light loads."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Top-notch performance and build quality, but a bit expensive."
+          }
+        ]
+      }
+    ],
+  
+    "storage": [
+      {
+        "id": 1,
+        "name": "Samsung 970 EVO Plus SSD",
+        "category": "Storage",
+        "status": true,
+        "price": "$200",
+        "description": "High-speed NVMe SSD for quick data access and boot times",
+        "keyFeatures": {
+          "Brand": "Samsung",
+          "Model": "970 EVO Plus",
+          "Specification": "500GB capacity, NVMe M.2 form factor, read speeds up to 3500MB/s"
+        },
+        "image": "/featuredCategoryImages/product-images/storage-1.png",
+        "individualRating": 4.8,
+        "averageRating": 4.7,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Blazing fast SSD. Windows boots up in seconds, and games load quickly."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Top-notch performance, but a bit expensive for higher capacities."
+          }
+        ]
+      },
+
+      {
+        "id": 2,
+        "name": "Western Digital Black SN750",
+        "category": "Storage",
+        "status": true,
+        "price": "$180",
+        "description": "High-performance NVMe SSD with heatsink",
+        "keyFeatures": {
+          "Brand": "Western Digital",
+          "Model": "Black SN750",
+          "Specification": "1TB capacity, NVMe M.2 form factor, read speeds up to 3470MB/s"
+        },
+        "image": "/featuredCategoryImages/product-images/storage-2.png",
+        "individualRating": 4.9,
+        "averageRating": 4.8,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Impressive SSD with a heatsink for better cooling. Very satisfied with the speed."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Fast and reliable SSD, but it could benefit from lower pricing."
+          }
+        ]
+      },
+
+      {
+        "id": 3,
+        "name": "Samsung 970 EVO Plus SSD",
+        "category": "Storage",
+        "status": true,
+        "price": "$200",
+        "description": "High-speed NVMe SSD for quick data access and boot times",
+        "keyFeatures": {
+          "Brand": "Samsung",
+          "Model": "970 EVO Plus",
+          "Specification": "500GB capacity, NVMe M.2 form factor, read speeds up to 3500MB/s"
+        },
+        "image": "/featuredCategoryImages/product-images/storage-3.png",
+        "individualRating": 4.8,
+        "averageRating": 4.7,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Blazing fast SSD. Windows boots up in seconds, and games load quickly."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Top-notch performance, but a bit expensive for higher capacities."
+          }
+        ]
+      },
+
+      {
+        "id": 4,
+        "name": "Western Digital Black SN750",
+        "category": "Storage",
+        "status": true,
+        "price": "$180",
+        "description": "High-performance NVMe SSD with heatsink",
+        "keyFeatures": {
+          "Brand": "Western Digital",
+          "Model": "Black SN750",
+          "Specification": "1TB capacity, NVMe M.2 form factor, read speeds up to 3470MB/s"
+        },
+        "image": "/featuredCategoryImages/product-images/storage-4.png",
+        "individualRating": 4.9,
+        "averageRating": 4.8,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Impressive SSD with a heatsink for better cooling. Very satisfied with the speed."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Fast and reliable SSD, but it could benefit from lower pricing."
+          }
+        ]
+      },
+
+      {
+        "id": 5,
+        "name": "Samsung 970 EVO Plus SSD",
+        "category": "Storage",
+        "status": true,
+        "price": "$200",
+        "description": "High-speed NVMe SSD for quick data access and boot times",
+        "keyFeatures": {
+          "Brand": "Samsung",
+          "Model": "970 EVO Plus",
+          "Specification": "500GB capacity, NVMe M.2 form factor, read speeds up to 3500MB/s"
+        },
+        "image": "/featuredCategoryImages/product-images/storage-5.png",
+        "individualRating": 4.8,
+        "averageRating": 4.7,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Blazing fast SSD. Windows boots up in seconds, and games load quickly."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Top-notch performance, but a bit expensive for higher capacities."
+          }
+        ]
+      },
+
+      {
+        "id": 6,
+        "name": "Western Digital Black SN750",
+        "category": "Storage",
+        "status": true,
+        "price": "$180",
+        "description": "High-performance NVMe SSD with heatsink",
+        "keyFeatures": {
+          "Brand": "Western Digital",
+          "Model": "Black SN750",
+          "Specification": "1TB capacity, NVMe M.2 form factor, read speeds up to 3470MB/s"
+        },
+        "image": "/featuredCategoryImages/product-images/storage-6.png",
+        "individualRating": 4.9,
+        "averageRating": 4.8,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Impressive SSD with a heatsink for better cooling. Very satisfied with the speed."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Fast and reliable SSD, but it could benefit from lower pricing."
+          }
+        ]
+      }
+    ],
+  
+    "monitor": [
+      {
+        "id": 1,
+        "name": "ASUS ROG Swift PG279Q",
+        "category": "Monitor",
+        "status": true,
+        "price": "$600",
+        "description": "High-refresh-rate gaming monitor with excellent color reproduction",
+        "keyFeatures": {
+          "Brand": "ASUS",
+          "Model": "ROG Swift PG279Q",
+          "Specification": "27-inch, 2560x1440 resolution, 165Hz refresh rate, IPS panel, G-Sync"
+        },
+        "image": "/featuredCategoryImages/product-images/monitor-1.png",
+        "individualRating": 4.9,
+        "averageRating": 4.8,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Amazing gaming monitor! The high refresh rate and G-Sync make games buttery smooth."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Vibrant colors and excellent viewing angles, but a bit pricey."
+          }
+        ]
+      },
+
+      {
+        "id": 2,
+        "name": "LG 27GN950-B",
+        "category": "Monitor",
+        "status": true,
+        "price": "$800",
+        "description": "High-quality 4K gaming monitor with Nano IPS display",
+        "keyFeatures": {
+          "Brand": "LG",
+          "Model": "27GN950-B",
+          "Specification": "27-inch, 4K UHD resolution, 144Hz refresh rate, 1ms response time, HDR600"
+        },
+        "image": "/featuredCategoryImages/product-images/monitor-2.png",
+        "individualRating": 4.8,
+        "averageRating": 4.7,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Stunning 4K monitor with vibrant colors. Great for gaming and content creation."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Excellent picture quality and smooth gaming experience, but the price is on the higher side."
+          }
+        ]
+      },
+
+      {
+        "id": 3,
+        "name": "ASUS ROG Swift PG279Q",
+        "category": "Monitor",
+        "status": true,
+        "price": "$600",
+        "description": "High-refresh-rate gaming monitor with excellent color reproduction",
+        "keyFeatures": {
+          "Brand": "ASUS",
+          "Model": "ROG Swift PG279Q",
+          "Specification": "27-inch, 2560x1440 resolution, 165Hz refresh rate, IPS panel, G-Sync"
+        },
+        "image": "/featuredCategoryImages/product-images/monitor-3.png",
+        "individualRating": 4.9,
+        "averageRating": 4.8,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Amazing gaming monitor! The high refresh rate and G-Sync make games buttery smooth."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Vibrant colors and excellent viewing angles, but a bit pricey."
+          }
+        ]
+      },
+
+      {
+        "id": 4,
+        "name": "LG 27GN950-B",
+        "category": "Monitor",
+        "status": true,
+        "price": "$800",
+        "description": "High-quality 4K gaming monitor with Nano IPS display",
+        "keyFeatures": {
+          "Brand": "LG",
+          "Model": "27GN950-B",
+          "Specification": "27-inch, 4K UHD resolution, 144Hz refresh rate, 1ms response time, HDR600"
+        },
+        "image": "/featuredCategoryImages/product-images/monitor-4.png",
+        "individualRating": 4.8,
+        "averageRating": 4.7,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Stunning 4K monitor with vibrant colors. Great for gaming and content creation."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Excellent picture quality and smooth gaming experience, but the price is on the higher side."
+          }
+        ]
+      },
+
+      {
+        "id": 5,
+        "name": "ASUS ROG Swift PG279Q",
+        "category": "Monitor",
+        "status": true,
+        "price": "$600",
+        "description": "High-refresh-rate gaming monitor with excellent color reproduction",
+        "keyFeatures": {
+          "Brand": "ASUS",
+          "Model": "ROG Swift PG279Q",
+          "Specification": "27-inch, 2560x1440 resolution, 165Hz refresh rate, IPS panel, G-Sync"
+        },
+        "image": "/featuredCategoryImages/product-images/monitor-5.png",
+        "individualRating": 4.9,
+        "averageRating": 4.8,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Amazing gaming monitor! The high refresh rate and G-Sync make games buttery smooth."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Vibrant colors and excellent viewing angles, but a bit pricey."
+          }
+        ]
+      },
+
+      {
+        "id": 6,
+        "name": "LG 27GN950-B",
+        "category": "Monitor",
+        "status": true,
+        "price": "$800",
+        "description": "High-quality 4K gaming monitor with Nano IPS display",
+        "keyFeatures": {
+          "Brand": "LG",
+          "Model": "27GN950-B",
+          "Specification": "27-inch, 4K UHD resolution, 144Hz refresh rate, 1ms response time, HDR600"
+        },
+        "image": "/featuredCategoryImages/product-images/monitor-6.png",
+        "individualRating": 4.8,
+        "averageRating": 4.7,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Stunning 4K monitor with vibrant colors. Great for gaming and content creation."
+          },
+          {
+            "rating": 4.5,
+            "comment": "Excellent picture quality and smooth gaming experience, but the price is on the higher side."
+          }
+        ]
+      }
+      
+    ]
+  }
+  

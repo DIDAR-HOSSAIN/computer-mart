@@ -1,5 +1,6 @@
 import Navbar from '@/components/frontend/Navbar/navbar';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Error404 = () => {
@@ -8,6 +9,7 @@ const Error404 = () => {
             <div className="">
                 <Navbar  />
             </div>
+             <Link href={"/"}>
              <div className="flex justify-center items-center">
                 <Image
                 src="https://d2x3xhvgiqkx42.cloudfront.net/12345678-1234-1234-1234-1234567890ab/2016/12/22/ae36c0d0-52ea-4a4a-a691-bec9b2458f5b.png"
@@ -16,6 +18,7 @@ const Error404 = () => {
                 alt="Picture of the author"
             />
              </div>
+             </Link>
         </div>
     );
 };
