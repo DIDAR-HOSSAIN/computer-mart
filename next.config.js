@@ -8,3 +8,11 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
+// next.config.js
+module.exports = {
+  images: {
+    domains: ['d2x3xhvgiqkx42.cloudfront.net'],
+  },
+};
+

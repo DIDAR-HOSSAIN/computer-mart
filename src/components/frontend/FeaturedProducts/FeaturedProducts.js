@@ -3,15 +3,16 @@ import Link from 'next/link';
 
 
 const FeaturedProducts = ({ products }) => {
+    
     return (
       <>
         {Object.keys(products).map((category) => (
           <div key={category} className="category">
-            <h2>{category}</h2>
             <div className="products">
               {products[category].map((product) => (
                 <div key={product.id} className="product">
-                  <Link href={`/product/${product.id}`}>
+                  <Link href={`/${product?.id}`}>
+                  {/* <Link href={`/news/${news?.id}`}> */}
                     <figure>
                       <Image
                         className="product-image"
