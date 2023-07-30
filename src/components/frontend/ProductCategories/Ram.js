@@ -9,10 +9,13 @@ const Ram = ({rams}) => {
          rams?.map((ram)=>(
           <div key={ram.id} className=" px-10 pt-8">
           <Link href={"/"}>
-          <figure><Image className='w-32 h-32' src={ram?.image} width={300} height={300} alt=""/></figure>
-          <div className="card-body bg-white rounded-b-2xl">
-              <h2 className="font-bold">{ram?.name}</h2>
-          </div>
+          <figure className='flex justify-center items-center'><Image className='w-32 h-32' src={ram?.image} width={300} height={300} alt=""/></figure>
+          <div className='text-center'>
+           <h2>{ram.name}</h2>
+          <p>Category: {ram.category}</p>
+          <p>Price: {ram.price}</p>
+          <p>Average Rating: {ram.averageRating}</p>
+         </div>
           </Link>
           </div>
         ))
