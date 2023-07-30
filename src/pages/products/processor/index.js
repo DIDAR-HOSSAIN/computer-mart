@@ -24,17 +24,13 @@ ProcessorCategory.getLayout = function getLayout(page) {
   }
 
 export const getStaticProps = async()=>{
-    const res1 = await fetch('http://localhost:5000/processors');
-    // const res2 = await fetch('http://localhost:5000/watches');
-    const data1 = await res1.json();
-    // const data2 = await res2.json();
-    console.log('from Json Server', data1)
-    // console.log('from Json Server', data2)
+    const res = await fetch('http://localhost:5000/processors');
+    const data = await res.json();
+    console.log('from Json Server', data)
   
     return {
       props:{
-        allProcessor:data1,
-        // productCategory:data2
+        allProcessor:data,
       },
       revalidate:10,
     };
