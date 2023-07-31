@@ -56,8 +56,15 @@ Home.getLayout = function getLayout(page) {
 
 
 export const getStaticProps = async()=>{
+  // if(typeof window == 'undefined'){
+  //   return {
+  //     props:{
+  //       products:[],
+  //     },
+  //   };
+  // }
   const res = await fetch(`${process.env.SERVER_URL}/api/productdb`);
-  // const res = await fetch('http://localhost:5000/processors');
+  // const res = await fetch(`${process.env.SERVER_URL}/api/productdb`);
   const data = await res.json();
   console.log('from Json Server', data)
 
@@ -68,3 +75,6 @@ export const getStaticProps = async()=>{
     revalidate:10,
   };
 };
+
+
+// https://computer-mart.vercel.app/

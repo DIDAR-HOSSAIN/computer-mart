@@ -47,6 +47,13 @@ const DynamicProduct = ({singleData}) => {
 export default DynamicProduct;
 
 export const getServerSideProps = async(context)=>{
+  // if(typeof window == 'undefined'){
+  //   return {
+  //     props:{
+  //       products:[],
+  //     },
+  //   };
+  // }
   const {params} = context
   const res = await fetch(`http://localhost:3000/api/productdb/${params.productId}`);
   const data = await res.json();

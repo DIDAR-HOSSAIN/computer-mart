@@ -26,7 +26,14 @@ MonitorCategory.getLayout = function getLayout(page) {
 
 
 export const getStaticProps = async()=>{
-    const res = await fetch('http://localhost:5000/monitor');
+  // if(typeof window == "undefined"){
+  //   return {
+  //     props:{
+  //       products:[],
+  //     },
+  //   };
+  // }
+    const res = await fetch(`${process.env.SERVER_URL}/api/productdb`);
     const data = await res.json();
     console.log('from Json Server', data)
 
