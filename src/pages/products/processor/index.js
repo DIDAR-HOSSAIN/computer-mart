@@ -2,6 +2,7 @@ import RootLayout from '@/components/frontend/RootLayout/RootLayout';
 import Processor from '@/components/frontend/ProductCategories/Processor';
 
 const ProcessorCategory = ({allProcessor}) => {
+  console.log('allprocessor data',allProcessor);
     return (
  <>    
     <div className="gap-8 rounded-lg grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
@@ -24,12 +25,12 @@ ProcessorCategory.getLayout = function getLayout(page) {
   }
 
 export const getStaticProps = async()=>{
-    const res = await fetch('http://localhost:5000/processors');
+    const res = await fetch(`${process.env.SERVER_URL}/api/productdb`);
     const data = await res.json();
   
     return {
       props:{
-        allProcessor:data,
+        allProcessor:data.data,
       },
       revalidate:10,
     };

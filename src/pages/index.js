@@ -56,13 +56,14 @@ Home.getLayout = function getLayout(page) {
 
 
 export const getStaticProps = async()=>{
-  const res = await fetch('http://localhost:5000/processors');
+  const res = await fetch(`${process.env.SERVER_URL}/api/productdb`);
+  // const res = await fetch('http://localhost:5000/processors');
   const data = await res.json();
   console.log('from Json Server', data)
 
   return {
     props:{
-      products:data,
+      products:data.data,
     },
     revalidate:10,
   };
