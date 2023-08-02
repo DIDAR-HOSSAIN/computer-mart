@@ -2,14 +2,15 @@ import RootLayout from "@/components/frontend/RootLayout/RootLayout";
 import Image from "next/image";
 
 
-const DynamicProduct = ({singleData}) => {
-  console.log('from processsor data dynamic router',singleData)
+const DynamicProduct = ( {singleData} ) => {
+  console.log('from processsor data dynamic router', singleData)
 
   return (
 
 
  <div>
-        <div key={singleData.id}>
+  <h1>this is home</h1>
+        <div key={singleData?._id}>
         <figure className='flex justify-center items-center'>
         <Image src={singleData.image} width={400} height={300} alt={singleData.name} />
         </figure>
@@ -18,7 +19,7 @@ const DynamicProduct = ({singleData}) => {
           <p>Category: {singleData.category}</p>
           <p>Price: {singleData.price}</p>
           <p>Description: {singleData.description}</p>
-          <p>Key Features:</p>
+          {/* <p>Key Features:</p>
           <ul>
             <li>Brand: {singleData.keyFeatures.Brand}</li>
             <li>Model: {singleData.keyFeatures.Model}</li>
@@ -34,7 +35,7 @@ const DynamicProduct = ({singleData}) => {
                 <p>Comment: {review.comment}</p>
               </li>
             ))}
-          </ul>
+          </ul> */}
           </div>
         </div>
     </div>
@@ -46,26 +47,6 @@ const DynamicProduct = ({singleData}) => {
 
 export default DynamicProduct;
 
-export const getServerSideProps = async(context)=>{
-  // if(typeof window == 'undefined'){
-  //   return {
-  //     props:{
-  //       products:[],
-  //     },
-  //   };
-  // }
-  const {params} = context
-  const res = await fetch(`http://localhost:3000/api/productdb/${params.productId}`);
-  const data = await res.json();
-  console.log(data);
-  
-  return {
-    props:{
-      singleData:data,
-    }
-  }
-}
-
 
 DynamicProduct.getLayout = function getLayout(page) {
   return (
@@ -74,6 +55,29 @@ DynamicProduct.getLayout = function getLayout(page) {
     </RootLayout>
   )
 }
+
+export const getServerSideProps = async(context)=>{
+  // if(typeof window == 'undefined'){
+  //   return {
+  //     props:{
+  //       products:[],
+  //     },
+  //   };
+  // }
+  const {params} = context;
+  const res = await fetch(`${process.env.SERVER_URL}/api/productdb/`);
+  const data = await res.json();
+  console.log(data);
+  
+  return {
+    props:{
+      singleData:data.data,
+    }
+  }
+}
+
+
+
 
 
 //  <div>

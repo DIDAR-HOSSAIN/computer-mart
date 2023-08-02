@@ -40,7 +40,7 @@ export const getStaticProps = async()=>{
   
     return {
       props:{
-        powerSupplies:data,
+        powerSupplies:data.data,
       },
       revalidate:10,
     };

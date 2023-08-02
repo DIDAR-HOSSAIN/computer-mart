@@ -6,17 +6,17 @@ const FeaturedProducts = ({ products }) => {
 
     return (
       <>
-      {products.map((processor) => (
-        <div key={processor.id}>
-          <Link href={`/${processor?.id}`}>
+      {products?.map((product) => (
+        <div key={product._id}>
+          <Link href={`/${product.id}`}>
           <figure className='flex justify-center items-center'> 
-          <Image src={processor.image} width={200} height={200} alt={processor.name} />
+          <Image src={product.image} width={200} height={200} alt={product.name} />
           </figure>
          <div className='text-center'>
-           <h2>{processor.name}</h2>
-          <p>Category: {processor.category}</p>
-          <p>Price: {processor.price}</p>
-          <p>Average Rating: {processor.averageRating}</p>
+           <h2>{product.name}</h2>
+          <p>Category: {product.category}</p>
+          <p>Price: {product.price}</p>
+          <p>Average Rating: {product.averageRating}</p>
          </div>
           </Link>
         </div>

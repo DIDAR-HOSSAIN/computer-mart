@@ -40,7 +40,7 @@ export const getStaticProps = async()=>{
   
     return {
       props:{
-        motherboards:data,
+        motherboards:data.data,
       },
       revalidate:10,
     };
