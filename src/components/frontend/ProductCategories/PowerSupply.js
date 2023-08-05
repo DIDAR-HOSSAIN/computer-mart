@@ -3,10 +3,12 @@ import Link from 'next/link';
 import React from 'react';
 
 const PowerSupply = ({powerSupplies}) => {
+  const powerSuppliesCategories = powerSupplies.filter((product) => product.category === 'Power Supply');
+
     return (
          <>
         {
-         powerSupplies?.map((powerSupply)=>(
+         powerSuppliesCategories?.map((powerSupply)=>(
           <div key={powerSupply.id} className=" px-10 pt-8">
           <Link href={"/"}>
           <figure className='flex justify-center items-center'><Image className='w-32 h-32' src={powerSupply?.image} width={300} height={300} alt=""/></figure>

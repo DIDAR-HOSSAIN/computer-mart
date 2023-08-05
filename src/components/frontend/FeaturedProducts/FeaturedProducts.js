@@ -8,7 +8,8 @@ const FeaturedProducts = ({ products }) => {
       <>
       {products?.map((product) => (
         <div key={product._id}>
-          <Link href={`/${product.id}`}>
+          {/* <Link href={`/${product?._id}`}> */}
+          <Link href={`/product/${product?._id}`}>
           <figure className='flex justify-center items-center'> 
           <Image src={product.image} width={200} height={200} alt={product.name} />
           </figure>

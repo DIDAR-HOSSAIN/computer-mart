@@ -1,4 +1,4 @@
-import Motherboard from '@/components/frontend/ProductCategories/Motherboard';
+import Ram from '@/components/frontend/ProductCategories/Ram';
 import RootLayout from '@/components/frontend/RootLayout/RootLayout';
 import React from 'react';
 
@@ -6,7 +6,7 @@ const RamCategory = ({rams}) => {
     return (
          <>    
     <div className="gap-8 rounded-lg grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
-         {<Motherboard motherboards={rams} />}
+         {<Ram rams={rams} />}
 
          </div>        
             
@@ -33,13 +33,13 @@ export const getStaticProps = async()=>{
   //     },
   //   };
   // }
-    const res = await fetch(`${process.env.SERVER_URL}/api/productdb`);
+    const res = await fetch("http://localhost:5000/products");
     const data = await res.json();
 
   
     return {
       props:{
-        rams:data.data,
+        rams:data,
       },
       revalidate:10,
     };

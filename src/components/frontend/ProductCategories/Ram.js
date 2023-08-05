@@ -3,10 +3,12 @@ import Link from 'next/link';
 import React from 'react';
 
 const Ram = ({rams}) => {
+  const ramCategories = rams.filter((product) => product.category === 'RAM');
+  
     return (
          <>
         {
-         rams?.map((ram)=>(
+         ramCategories?.map((ram)=>(
           <div key={ram.id} className=" px-10 pt-8">
           <Link href={"/"}>
           <figure className='flex justify-center items-center'><Image className='w-32 h-32' src={ram?.image} width={300} height={300} alt=""/></figure>

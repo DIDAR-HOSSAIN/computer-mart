@@ -33,14 +33,14 @@ export const getStaticProps = async()=>{
   //     },
   //   };
   // }
-    const res = await fetch(`${process.env.SERVER_URL}/api/productdb`);
+    const res = await fetch("http://localhost:5000/products");
     const data = await res.json();
     console.log('from Json Server', data)
 
   
     return {
       props:{
-        monitors:data.data,
+        monitors:data,
       },
       revalidate:10,
     };

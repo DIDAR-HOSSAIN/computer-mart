@@ -9,17 +9,16 @@ const DynamicProduct = ( {singleData} ) => {
 
 
  <div>
-  <h1>this is home</h1>
-        <div key={singleData?._id}>
+         <div key={singleData?._id}>
         <figure className='flex justify-center items-center'>
-        <Image src={singleData.image} width={400} height={300} alt={singleData.name} />
+        <Image src={singleData?.image} width={400} height={300} alt={singleData?.name} />
         </figure>
           <div className="font-bold p-4 ml-12">
-          <h2>{singleData.name}</h2>
-          <p>Category: {singleData.category}</p>
-          <p>Price: {singleData.price}</p>
-          <p>Description: {singleData.description}</p>
-          {/* <p>Key Features:</p>
+          <h2>{singleData?.name}</h2>
+          <p>Category: {singleData?.category}</p>
+          <p>Price: {singleData?.price}</p>
+          <p>Description: {singleData?.description}</p>
+          <p>Key Features:</p>
           <ul>
             <li>Brand: {singleData.keyFeatures.Brand}</li>
             <li>Model: {singleData.keyFeatures.Model}</li>
@@ -35,7 +34,7 @@ const DynamicProduct = ( {singleData} ) => {
                 <p>Comment: {review.comment}</p>
               </li>
             ))}
-          </ul> */}
+          </ul>
           </div>
         </div>
     </div>
@@ -46,7 +45,6 @@ const DynamicProduct = ( {singleData} ) => {
         }
 
 export default DynamicProduct;
-
 
 DynamicProduct.getLayout = function getLayout(page) {
   return (
@@ -64,14 +62,15 @@ export const getServerSideProps = async(context)=>{
   //     },
   //   };
   // }
-  const {params} = context;
-  const res = await fetch(`${process.env.SERVER_URL}/api/productdb/`);
+
+  const { params } = context
+  const res = await fetch(`http://localhost:5000/product/${params.productId}`);
   const data = await res.json();
   console.log(data);
   
   return {
     props:{
-      singleData:data.data,
+      singleData:data,
     }
   }
 }

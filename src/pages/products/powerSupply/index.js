@@ -34,13 +34,13 @@ export const getStaticProps = async()=>{
   //     },
   //   };
   // }
-    const res = await fetch(`${process.env.SERVER_URL}/api/productdb`);
+    const res = await fetch("http://localhost:5000/products");
     const data = await res.json();
 
   
     return {
       props:{
-        powerSupplies:data.data,
+        powerSupplies:data,
       },
       revalidate:10,
     };
