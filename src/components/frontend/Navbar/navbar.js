@@ -61,7 +61,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">PC Builder</a>
+                <Link href={'/builder'} className="btn">PC Builder</Link>
             </div>
             </div>
     );
