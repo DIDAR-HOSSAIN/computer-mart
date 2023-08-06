@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
- export const api = createApi({
+ export const productApi = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:5000/' }),
 //   tagTypes: ['Posts'],
   endpoints: (build) => ({
@@ -21,11 +21,11 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 })
 
 // Auto-generated hooks
-export const { useGetProductsQuery } = api
+export const { useGetProductsQuery } = productApi
 
 // Possible exports
 
-export const { endpoints, reducerPath, reducer, middleware } = api
+export const { endpoints, reducerPath, reducer, middleware } = productApi
 
 // reducerPath, reducer, middleware are only used in store configuration
 // endpoints will have:

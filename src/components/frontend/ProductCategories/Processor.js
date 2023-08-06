@@ -5,6 +5,17 @@ import React from 'react';
 const Processor = ({allProcessor}) => {
   const processorCategories = allProcessor.filter((product) => product.category === 'Processor');
   console.log('only processor product', processorCategories)
+
+  const handleAddProduct = (processorCategories)=>{
+    console.log('from cart',processorCategories)
+    processorCategories?.map((item)=>(
+      console.log(item.name)
+    ))
+
+
+
+  };
+
     return (
         <>
     {
@@ -19,6 +30,7 @@ const Processor = ({allProcessor}) => {
           <p>Average Rating: {processor.averageRating}</p>
          </div>
       </Link>
+      <button onClick={()=>handleAddProduct(processorCategories)} className="btn btn-active btn-accent">Add To Cart</button>
       </div>
     ))
    }

@@ -1,10 +1,16 @@
+import { useGetProductsQuery } from '@/redux/api/api';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
 const PcBuilderCart = () => {
+
+    const {data, isLoading, isError, error} = useGetProductsQuery();
+    console.log('from redux rtk qurey', data);
+
     return (
     <div className="overflow-x-auto">
+        <h1 className='text-center'>PC Builder Cart</h1>
         <table className="table">
             {/* head */}
             <tbody>

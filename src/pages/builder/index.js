@@ -4,8 +4,7 @@ import { useGetProductsQuery } from '@/redux/api/api';
 import React from 'react';
 
 const PcBuilder = () => {
-  const {data, isLoading, isError, error} = useGetProductsQuery();
-  console.log('from rtk query',data);
+
     return (
         <PcBuilderCart />
     );
